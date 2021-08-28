@@ -12,9 +12,10 @@ values_at() -> devuelve un arreglo con los valores específicados en los paramet
 e.g. a = %w{gato perro oso}; puts a.values_at(1,2).join(' and ') #=> "perro y oso"
 =end
 
-#a = [1,2,3,4,5]
+#primer metodo
+a = [1,2,3,4,5]
 #puts a.at(0)
-
-
-a = (1..100)
+a.delete(4)
 puts a
+
+
