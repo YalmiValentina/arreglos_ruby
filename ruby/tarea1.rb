@@ -2,7 +2,7 @@
 
 
 
-.length
+
 .sort
 .slice
 .shuffle
@@ -22,4 +22,9 @@ puts a
 
 #tercer metodo .reverse
 puts a.reverse
+
+#cuarto metodo .length
+puts a.length
+
+
 
