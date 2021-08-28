@@ -1,6 +1,4 @@
 =begin
-
-.join
 .insert
 values_at() -> devuelve un arreglo con los valores específicados en los parametros. 
 e.g. a = %w{gato perro oso}; puts a.values_at(1,2).join(' and ') #=> "perro y oso"
@@ -33,3 +31,7 @@ puts c.slice(3,4)
 
 #septimo metodo .shuffle
 puts c.shuffle
+
+#octavo metodo .join
+puts c.join
+puts c.join ("-")
