@@ -3,7 +3,7 @@
 
 
 
-.sort
+
 .slice
 .shuffle
 .join
@@ -26,5 +26,9 @@ puts a.reverse
 #cuarto metodo .length
 puts a.length
 
+#quinto metodo .sort
+puts a.sort
 
+b = ["a","d","b","c"]
+puts b.sort
 
