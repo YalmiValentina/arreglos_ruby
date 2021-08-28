@@ -1,11 +1,10 @@
 =begin
 
-.shuffle
 .join
 .insert
 values_at() -> devuelve un arreglo con los valores específicados en los parametros. 
 e.g. a = %w{gato perro oso}; puts a.values_at(1,2).join(' and ') #=> "perro y oso"
-
+=end
 
 #primer metodo .at or .fetch
 a = [1,2,3,4,5]
@@ -26,7 +25,11 @@ puts a.length
 b = ["a","d","b","c"]
 puts b.sort
 
-=end
+
 #sexto metodo .slice
+
 c = [ "a", "b", "c", "d", "e" ]
 puts c.slice(3,4)
+
+#septimo metodo .shuffle
+puts c.shuffle
